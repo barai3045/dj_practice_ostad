@@ -79,4 +79,46 @@ s = {1,3,4,5}
 
 # print(s[0])
 
-print(dir(set))
+# print(dir(set))
+
+"""dictionary"""
+text = "The cheerfull robin, wtih its bright red breast, perched on the emerald green windowsill. Beside it, a vibrant yellow sunflower swayed gently in the summer breeze. A cloud, cotton-white and fluffy, drifted across teh azure blue sky, casting a berif lavendar shadow on the blooming purple crocuses below red green blue"
+
+colors = ['red', 'green', 'yellow', 'white', 'blue', 'purple', 'black']
+
+# li = set()
+
+# word_list = text.split()
+
+# for word in word_list:
+#     if word in colors:
+#         li.add(word)
+        
+# print(li)
+
+# dt = {}
+
+# word_list = text.split()
+# for word in word_list:
+#     if word in colors:
+#         if word not in dt.keys():
+#             dt[word] = 1
+#         else:
+#             dt[word] += 1 
+        
+# print(dt)
+
+
+dt = { 1:"one", 2:"two", 3:"three"}
+
+# print(dt.keys())
+# print(dt.values())
+
+# for k,v in dt.items():
+#     print(k,v)
+
+# for t in dt.items():
+#     print(t, type(t))
+
+dt = {"one": 1, "two": 2, "three": 3}
+print(dt["three"])
